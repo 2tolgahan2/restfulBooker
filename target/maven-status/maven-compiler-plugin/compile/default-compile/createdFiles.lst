@@ -1,0 +1,3 @@
+models/AuthRequest.class
+models/BookingRequest.class
+models/BookingRequest$BookingDates.class

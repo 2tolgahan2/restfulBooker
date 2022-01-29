@@ -1,0 +1,10 @@
+/Users/tolgahan/.jenkins/workspace/restfulBooker/src/test/java/services/booking/DeleteBookingTest.java
+/Users/tolgahan/.jenkins/workspace/restfulBooker/src/test/java/services/auth/CreateTokenTest.java
+/Users/tolgahan/.jenkins/workspace/restfulBooker/src/test/java/services/booking/GetBookingIdsTest.java
+/Users/tolgahan/.jenkins/workspace/restfulBooker/src/test/java/services/booking/PartialUpdateBookingTest.java
+/Users/tolgahan/.jenkins/workspace/restfulBooker/src/test/java/health/HealthTest.java
+/Users/tolgahan/.jenkins/workspace/restfulBooker/src/test/java/config/RestfulBookerAPI.java
+/Users/tolgahan/.jenkins/workspace/restfulBooker/src/test/java/services/booking/CreateBookingTest.java
+/Users/tolgahan/.jenkins/workspace/restfulBooker/src/test/java/services/booking/BookingFlowTest.java
+/Users/tolgahan/.jenkins/workspace/restfulBooker/src/test/java/services/booking/GetBookingTest.java
+/Users/tolgahan/.jenkins/workspace/restfulBooker/src/test/java/services/booking/UpdateBookingTest.java

@@ -1,0 +1,10 @@
+services/booking/CreateBookingTest.class
+services/booking/GetBookingIdsTest.class
+services/booking/DeleteBookingTest.class
+services/auth/CreateTokenTest.class
+config/RestfulBookerAPI.class
+health/HealthTest.class
+services/booking/BookingFlowTest.class
+services/booking/UpdateBookingTest.class
+services/booking/GetBookingTest.class
+services/booking/PartialUpdateBookingTest.class

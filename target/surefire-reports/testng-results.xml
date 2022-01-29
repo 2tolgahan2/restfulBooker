@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-29T22:53:58 EET" name="services.auth.CreateTokenTest" finished-at="2022-01-29T22:54:07 EET" duration-ms="9195">
+    <groups>
+    </groups>
+    <test started-at="2022-01-29T22:53:58 EET" name="Command line test" finished-at="2022-01-29T22:54:07 EET" duration-ms="9195">
+      <class name="services.auth.CreateTokenTest">
+        <test-method signature="createTokenEmptyInput()[pri:0, instance:services.auth.CreateTokenTest@72cc7e6f]" started-at="2022-01-29T22:53:58 EET" name="createTokenEmptyInput" finished-at="2022-01-29T22:54:04 EET" duration-ms="6038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenEmptyInput -->
+        <test-method signature="createTokenHappyPath()[pri:0, instance:services.auth.CreateTokenTest@72cc7e6f]" started-at="2022-01-29T22:54:04 EET" name="createTokenHappyPath" finished-at="2022-01-29T22:54:05 EET" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenHappyPath -->
+        <test-method signature="createTokenInvalidPassword()[pri:0, instance:services.auth.CreateTokenTest@72cc7e6f]" started-at="2022-01-29T22:54:05 EET" name="createTokenInvalidPassword" finished-at="2022-01-29T22:54:06 EET" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenInvalidPassword -->
+        <test-method signature="createTokenInvalidUsername()[pri:0, instance:services.auth.CreateTokenTest@72cc7e6f]" started-at="2022-01-29T22:54:06 EET" name="createTokenInvalidUsername" finished-at="2022-01-29T22:54:07 EET" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenInvalidUsername -->
+      </class> <!-- services.auth.CreateTokenTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- services.auth.CreateTokenTest -->
+</testng-results>

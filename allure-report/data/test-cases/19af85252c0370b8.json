@@ -1,0 +1,114 @@
+{
+  "uid" : "19af85252c0370b8",
+  "name" : "createToken",
+  "fullName" : "services.booking.BookingFlowTest.createToken",
+  "historyId" : "66ad6c50df8a3e41aaaaa6054fdf400d",
+  "time" : {
+    "start" : 1643563826440,
+    "stop" : 1643563827530,
+    "duration" : 1090
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "background",
+    "time" : {
+      "start" : 1643563821425,
+      "stop" : 1643563826122,
+      "duration" : 4697
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ed49dc96ed69b564",
+      "name" : "Request Detail",
+      "source" : "ed49dc96ed69b564.txt",
+      "type" : "text/plain",
+      "size" : 156
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "after",
+    "time" : {
+      "start" : 1643563827610,
+      "stop" : 1643563827610,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "services.booking.BookingFlowTest"
+  }, {
+    "name" : "testClass",
+    "value" : "services.booking.BookingFlowTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createToken"
+  }, {
+    "name" : "parentSuite",
+    "value" : "services.booking.BookingFlowTest"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "services.booking.BookingFlowTest"
+  }, {
+    "name" : "host",
+    "value" : "Tolgahans-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "1651@Tolgahans-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19af85252c0370b8.json",
+  "parameterValues" : [ ]
+}

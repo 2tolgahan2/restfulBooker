@@ -1,21 +1,20 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
-    "name" : "services.booking.test",
+    "name" : "services.booking.BookingFlowTest",
     "children" : [ {
       "name" : "Command line test",
       "children" : [ {
-        "name" : "services.booking.test",
+        "name" : "services.booking.BookingFlowTest",
         "children" : [ {
-          "name" : "sample",
-          "uid" : "1c6bc5c842b7f4c1",
-          "parentUid" : "4b352c55fabe88046cdfa2f555930848",
+          "name" : "createToken",
+          "uid" : "19af85252c0370b8",
+          "parentUid" : "99bff5a69a88e48b41296cae2365a61c",
           "status" : "passed",
           "time" : {
-            "start" : 1643487114194,
-            "stop" : 1643487120295,
-            "duration" : 6101
+            "start" : 1643563826440,
+            "stop" : 1643563827530,
+            "duration" : 1090
           },
           "flaky" : false,
           "newFailed" : false,
@@ -25,10 +24,11 @@
           "retriesStatusChange" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "4b352c55fabe88046cdfa2f555930848"
+        "uid" : "99bff5a69a88e48b41296cae2365a61c"
       } ],
-      "uid" : "c84c98706b088e08f123526736eea832"
+      "uid" : "b3c415d0af72849606863509c45e443f"
     } ],
-    "uid" : "9d6f520546146fe66c12d9670bb69066"
-  } ]
+    "uid" : "5d394b3324878aca02ebfbbe83b9b3c3"
+  } ],
+  "name" : "suites"
 }

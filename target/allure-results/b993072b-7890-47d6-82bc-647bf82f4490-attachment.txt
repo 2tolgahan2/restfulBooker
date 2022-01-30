@@ -1,0 +1,5 @@
+Url = https://restful-booker.herokuapp.com/auth
+ 
+Request Body = {"username":"admin","password":"password123"}
+ 
+Response Body = {"token":"ad1ea3651ae3388"}

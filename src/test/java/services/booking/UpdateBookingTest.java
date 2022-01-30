@@ -32,5 +32,4 @@ public class UpdateBookingTest {
 
         Assert.assertEquals(response.statusCode(), STATUS_CODE_SUCCESS);
     }
-
 }

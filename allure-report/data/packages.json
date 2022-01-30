@@ -1,17 +1,16 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
-    "name" : "services.booking.test",
+    "name" : "services.booking.BookingFlowTest",
     "children" : [ {
-      "name" : "sample",
-      "uid" : "1c6bc5c842b7f4c1",
-      "parentUid" : "1234a0ee20611fdb60267bca50181e58",
+      "name" : "createToken",
+      "uid" : "19af85252c0370b8",
+      "parentUid" : "752a876a798dc1888d111ea13e9e0f64",
       "status" : "passed",
       "time" : {
-        "start" : 1643487114194,
-        "stop" : 1643487120295,
-        "duration" : 6101
+        "start" : 1643563826440,
+        "stop" : 1643563827530,
+        "duration" : 1090
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,6 +20,7 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "services.booking.test"
-  } ]
+    "uid" : "services.booking.BookingFlowTest"
+  } ],
+  "name" : "packages"
 }

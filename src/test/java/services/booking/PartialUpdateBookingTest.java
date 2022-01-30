@@ -32,5 +32,4 @@ public class PartialUpdateBookingTest {
 
         Assert.assertEquals(response.statusCode(), STATUS_CODE_SUCCESS);
     }
-
 }

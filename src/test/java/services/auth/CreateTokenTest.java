@@ -32,7 +32,6 @@ public class CreateTokenTest {
 
         Assert.assertEquals(response.getStatusCode(), STATUS_CODE_SUCCESS);
         Assert.assertNotNull(response.jsonPath().getString("token"));
-        System.out.println(response.getBody().asString());
     }
 
     @Test

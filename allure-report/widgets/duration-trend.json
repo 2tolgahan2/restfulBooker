@@ -1,4 +1,11 @@
 [ {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:8080/job/restfulBooker/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 1090
+  }
+}, {
   "buildOrder" : 5,
   "reportUrl" : "http://localhost:8080/job/restfulBooker/5/allure",
   "reportName" : "AllureReport",

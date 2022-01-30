@@ -1,0 +1,5 @@
+Url = https://restful-booker.herokuapp.com/booking/4
+ 
+Request Body = 
+ 
+Response Body = Forbidden

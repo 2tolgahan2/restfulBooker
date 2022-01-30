@@ -3,9 +3,12 @@ package services.booking;
 import com.google.gson.Gson;
 import health.HealthTest;
 import io.qameta.allure.Allure;
+import io.restassured.RestAssured;
 import io.restassured.internal.RequestSpecificationImpl;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 import models.AuthRequest;
+import models.BookingRequest;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -19,50 +22,57 @@ import static io.restassured.RestAssured.given;
 
 public class BookingFlowTest {
 
+    public static Response responseCreateBooking;
     HealthTest healthTest = new HealthTest();
     CreateTokenTest createTokenTest = new CreateTokenTest();
     CreateBookingTest createBookingTest = new CreateBookingTest();
-    GetBookingIdsTest getBookingIdsTest = new GetBookingIdsTest();
-    GetBookingTest getBookingTest = new GetBookingTest();
     UpdateBookingTest updateBookingTest = new UpdateBookingTest();
+    DeleteBookingTest deleteBookingTest = new DeleteBookingTest();
 
     @BeforeClass
     public void background(){
         healthTest.checkHealth();
     }
-      /*
-    @Test
-    public void bookingE2EHappyPath(){
-        createBookingTest.createBookingHappyPath();
-        getBookingIdsTest.getBookingIdsHappyPath("Tolgahan", "Bardakci", "2022-11-11", "2022-12-12", 200);
-        getBookingTest.getBookingHappyPath();
-        updateBookingTest.updateBookingHappyPath();
-    }
-        @Test
-    public void bookingE2EHappyPath() {
-        RequestSpecification restAssuredReq = RestAssured.given()
-                .header("Content-Type", "application/json")
-                .log()
-                .all(true);
 
-        Response response = restAssuredReq.get(BASE_URL +"/booking");
-        attachment(restAssuredReq, BASE_URL + "/booking", response);
+    @Test
+    public void createToken() {
+        AuthRequest authRequest = new AuthRequest("admin", "password123");
+        String request = new Gson().toJson(authRequest);
+        Response response = createTokenTest.post(request);
+
+        attachment(request, BASE_URL + "/auth", response);
         Assert.assertEquals(response.getStatusCode(), STATUS_CODE_SUCCESS);
     }
-    Response response = given()
-            .header("Content-Type", "application/json")
-            .body(request).
-            when()
-            .post(BASE_URL +"/auth");
-         */
-      @Test
-      public void createToken() {
-          AuthRequest authRequest = new AuthRequest("admin", "password123");
-          String request = new Gson().toJson(authRequest);
-          Response response = createTokenTest.post(request);
 
-          attachment(request, BASE_URL + "/auth", response);
-          Assert.assertEquals(response.getStatusCode(), STATUS_CODE_SUCCESS);
+    @Test
+    public void createBooking(){
+        BookingRequest.BookingDates bookingDates = new BookingRequest.BookingDates("2022-11-09", "2022-11-11");
+        BookingRequest  bookingRequest = new BookingRequest("Tolgahan", "Bardakci", 72, true, bookingDates, "Has a cat xd");
+        String request = new Gson().toJson(bookingRequest);
+        BookingFlowTest.responseCreateBooking = createBookingTest.post(request);
+
+        attachment(request, BASE_URL + "/booking", responseCreateBooking);
+        Assert.assertEquals(responseCreateBooking.getStatusCode(), STATUS_CODE_SUCCESS);
+    }
+
+    @Test
+    public void updateBooking(){
+        int bookingId = 1;
+        BookingRequest.BookingDates bookingDates = new BookingRequest.BookingDates("2018-01-01", "2019-01-01");
+        BookingRequest  bookingRequest = new BookingRequest("James", "Brown", 111, true, bookingDates, "Has a cat xd");
+        String request = new Gson().toJson(bookingRequest);
+        Response response = updateBookingTest.put(request, bookingId);
+
+        attachment(request, BASE_URL + "/booking" + "/" + bookingId, response);
+        Assert.assertEquals(response.getStatusCode(), STATUS_CODE_SUCCESS);
+    }
+
+    @Test
+    public void deleteBooking(){
+        int bookingId = 4;
+        Response response = deleteBookingTest.delete(bookingId);
+        attachment("", BASE_URL + "/booking" + "/" + bookingId, response);
+        Assert.assertEquals(response.getStatusCode(), STATUS_CODE_SUCCESS);
       }
 
     public String attachment(String request, String url, Response response) {
@@ -73,24 +83,8 @@ public class BookingFlowTest {
         return html;
     }
 
-
-    /*
-	RestAssured.baseURI ="https://restapi.demoqa.com/customer";
-	RequestSpecification request = RestAssured.given();
-
-	JSONObject requestParams = new JSONObject();
-	requestParams.put("username", "admin");
-	requestParams.put("password", "password123");
-
-	request.body(requestParams.toJSONString());
-	Response response = request.post("/register");
-
-     */
-
     @AfterClass(alwaysRun = true)
-    // Delete
-    public void after(){
-        System.out.println("yy");
+    public void afterClass(){
+        System.out.println("Created Booking: -->" + responseCreateBooking.getBody().asString());
     }
-
 }

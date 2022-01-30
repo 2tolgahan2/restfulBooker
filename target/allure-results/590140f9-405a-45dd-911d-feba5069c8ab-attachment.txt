@@ -1,0 +1,5 @@
+Url = https://restful-booker.herokuapp.com/booking/1
+ 
+Request Body = {"firstname":"James","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Has a cat xd"}
+ 
+Response Body = Forbidden

@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "9d6f520546146fe66c12d9670bb69066",
-    "name" : "services.booking.test",
+    "uid" : "5d394b3324878aca02ebfbbe83b9b3c3",
+    "name" : "services.booking.BookingFlowTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/job/restfulBooker/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  }
+}, {
   "buildOrder" : 4,
   "reportUrl" : "http://localhost:8080/job/restfulBooker/4/allure",
   "reportName" : "AllureReport",

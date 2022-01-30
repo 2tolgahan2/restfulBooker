@@ -39,6 +39,26 @@
       }
     } ]
   },
+  "66ad6c50df8a3e41aaaaa6054fdf400d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19af85252c0370b8",
+      "reportUrl" : "http://localhost:8080/job/restfulBooker/6/allure/#testresult/19af85252c0370b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643563826440,
+        "stop" : 1643563827530,
+        "duration" : 1090
+      }
+    } ]
+  },
   "212c44064e6aa0190b3e4faf8209c884" : {
     "statistic" : {
       "failed" : 0,

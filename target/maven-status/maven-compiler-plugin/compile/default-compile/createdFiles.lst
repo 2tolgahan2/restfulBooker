@@ -1,3 +1,4 @@
 models/AuthRequest.class
+models/BookingRequestPartial.class
 models/BookingRequest.class
 models/BookingRequest$BookingDates.class

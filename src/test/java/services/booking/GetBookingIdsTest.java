@@ -18,7 +18,7 @@ public class GetBookingIdsTest {
     @DataProvider(name = "dataProvider")
     public Object[][] dataProvider(){
         return new Object[][]{
-                {"Mark", "Ericsson", "2020-02-27", "2021-12-29"},
+                {"Mark", "Wilson", "2015-08-15", "2020-05-29"},
                 {"firstname2", "lastname2", "2019-10-10", "2021-04-03"}
         };
     }
@@ -36,6 +36,7 @@ public class GetBookingIdsTest {
                 .get(BASE_URL + "/booking").
                 then()
                 .statusCode(STATUS_CODE_SUCCESS)
+                .body("$",hasSize(1) )
                 .log().all();
     }
 }

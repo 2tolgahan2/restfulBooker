@@ -22,7 +22,6 @@ public class BookingRequest {
         this.lastname = lastname;
     }
 
-
     public static class BookingDates{
         public String checkin;
         public String checkout;
@@ -32,6 +31,4 @@ public class BookingRequest {
             this.checkout = checkout;
         }
     }
-
-
 }

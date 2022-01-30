@@ -1,10 +1,10 @@
 [ {
-  "uid" : "1c6bc5c842b7f4c1",
-  "name" : "sample",
+  "uid" : "19af85252c0370b8",
+  "name" : "createToken",
   "time" : {
-    "start" : 1643487114194,
-    "stop" : 1643487120295,
-    "duration" : 6101
+    "start" : 1643563826440,
+    "stop" : 1643563827530,
+    "duration" : 1090
   },
   "status" : "passed",
   "severity" : "normal"

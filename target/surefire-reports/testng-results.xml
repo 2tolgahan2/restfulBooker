@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-29T23:11:53 EET" name="services.booking.test" finished-at="2022-01-29T23:12:00 EET" duration-ms="6571">
+  <suite started-at="2022-01-30T20:30:21 EET" name="services.booking.BookingFlowTest" finished-at="2022-01-30T20:30:27 EET" duration-ms="6208">
     <groups>
     </groups>
-    <test started-at="2022-01-29T23:11:53 EET" name="Command line test" finished-at="2022-01-29T23:12:00 EET" duration-ms="6571">
-      <class name="services.booking.test">
-        <test-method signature="sample()[pri:0, instance:services.booking.test@606e4010]" started-at="2022-01-29T23:11:53 EET" name="sample" finished-at="2022-01-29T23:12:00 EET" duration-ms="6459" status="PASS">
+    <test started-at="2022-01-30T20:30:21 EET" name="Command line test" finished-at="2022-01-30T20:30:27 EET" duration-ms="6208">
+      <class name="services.booking.BookingFlowTest">
+        <test-method is-config="true" signature="background()[pri:0, instance:services.booking.BookingFlowTest@792b749c]" started-at="2022-01-30T20:30:21 EET" name="background" finished-at="2022-01-30T20:30:26 EET" duration-ms="4696" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-      </class> <!-- services.booking.test -->
+        </test-method> <!-- background -->
+        <test-method signature="createToken()[pri:0, instance:services.booking.BookingFlowTest@792b749c]" started-at="2022-01-30T20:30:26 EET" name="createToken" finished-at="2022-01-30T20:30:27 EET" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createToken -->
+        <test-method is-config="true" signature="after()[pri:0, instance:services.booking.BookingFlowTest@792b749c]" started-at="2022-01-30T20:30:27 EET" name="after" finished-at="2022-01-30T20:30:27 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- services.booking.BookingFlowTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- services.booking.test -->
+  </suite> <!-- services.booking.BookingFlowTest -->
 </testng-results>

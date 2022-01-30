@@ -1,8 +1,0 @@
-Url = https://restful-booker.herokuapp.com/booking
- 
-Request Headers = Accept=*/*
-Content-Type=application/json
- 
-Request Body = null
- 
-Response Body = [{"bookingid":3},{"bookingid":1},{"bookingid":4},{"bookingid":7},{"bookingid":6},{"bookingid":8},{"bookingid":5},{"bookingid":9},{"bookingid":2},{"bookingid":10}]

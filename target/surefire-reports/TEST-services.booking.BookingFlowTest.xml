@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="services.booking.BookingFlowTest" time="1.458" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="restfulBooker"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/restfulBooker/6/display/redirect?page=tests"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/tolgahan/.jenkins"/>
+    <property name="PATH" value="/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="JAVA_MAIN_CLASS_676" value="Main"/>
+    <property name="HUDSON_SERVER_COOKIE" value="75d0a291abdc5cc2"/>
+    <property name="POM_ARTIFACTID" value="restfulBooker"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="restfulBooker"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="tolgahan"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="restfulBooker"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/restfulBooker/6/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
+    <property name="TMPDIR" value="/var/folders/yf/jvj2cl653b57gv9gpjqlkvvh0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home/lib"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="e689a1f25caca7a90a300f958ae7e8189bf2e9bf"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="BUILD_ID" value="6"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="SHELL" value="/bin/zsh"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/tolgahan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/conf"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="TR"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.12.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="11.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/restfulBooker/6/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/restfulBooker/6/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="e689a1f25caca7a90a300f958ae7e8189bf2e9bf"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/restfulBooker/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="tolgahan"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/tolgahan"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_GROUPID" value="org.example"/>
+    <property name="user.home" value="/Users/tolgahan"/>
+    <property name="BUILD_TAG" value="jenkins-restfulBooker-6"/>
+    <property name="JENKINS_SERVER_COOKIE" value="75d0a291abdc5cc2"/>
+    <property name="XPC_SERVICE_NAME" value="homebrew.mxcl.jenkins-lts"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="test" value="services/booking/BookingFlowTest"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/tolgahan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/Users/tolgahan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/tolgahan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven /Users/tolgahan/.jenkins/war/WEB-INF/lib/remoting-4.11.2.jar /Users/tolgahan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/tolgahan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 50073"/>
+    <property name="java.class.path" value="/Users/tolgahan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/Users/tolgahan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/boot/plexus-classworlds-2.6.0.jar:/Users/tolgahan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/conf/logging"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="/Users/tolgahan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="/var/folders/yf/jvj2cl653b57gv9gpjqlkvvh0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/tolgahan/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/tolgahan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/bin"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/restfulBooker/6/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.EW2RHUl7fF/Listeners"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/tolgahan/.jenkins/workspace/restfulBooker"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/restfulBooker/"/>
+    <property name="MAVEN_HOME" value="/Users/tolgahan/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="6"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="GIT_COMMIT" value="3d13c1fb30db56f5909a85624da31edeb8738a61"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/tolgahan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/tolgahan/.jenkins/workspace/restfulBooker@tmp"/>
+    <property name="WORKSPACE" value="/Users/tolgahan/.jenkins/workspace/restfulBooker"/>
+    <property name="maven3.interceptor.common" value="/Users/tolgahan/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="USER" value="tolgahan"/>
+    <property name="GIT_URL" value="https://github.com/2tolgahan2/restfulBooker"/>
+  </properties>
+  <testcase classname="services.booking.BookingFlowTest" name="createToken" time="1.458"/>
+</testsuite>

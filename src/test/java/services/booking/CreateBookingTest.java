@@ -22,7 +22,6 @@ public class CreateBookingTest {
         return response;
     }
 
-
     @Test
     public void createBookingHappyPath(){
         BookingRequest.BookingDates bookingDates = new BookingRequest.BookingDates("2022-11-09", "2022-11-11");
@@ -30,16 +29,9 @@ public class CreateBookingTest {
         String request = new Gson().toJson(bookingRequest);
         Response response = post(request);
 
-        // Check all firstname-surname
+        // Check firstname-surname mapping
         Assert.assertEquals(response.jsonPath().getString("booking.firstname"), bookingRequest.firstname);
         Assert.assertEquals(response.jsonPath().getString("booking.lastname"), bookingRequest.lastname);
-        /*
-        Assert.assertTrue(response.jsonPath().getString("booking.totalprice").equals(72));
-        Assert.assertEquals(response.jsonPath().getString("booking.depositpaid"), bookingRequest.depositpaid);
-        Assert.assertEquals(response.jsonPath().getString("booking.bookingdates.checkin"), bookingDates.checkin);
-        Assert.assertEquals(response.jsonPath().getString("booking.bookingdates.checkout"), bookingDates.checkout);
-        Assert.assertEquals(response.jsonPath().getString("booking.additionalneeds"), bookingRequest.additionalneeds);
-         */
     }
 
     @Test
@@ -51,5 +43,4 @@ public class CreateBookingTest {
 
         Assert.assertTrue(response.getBody().asString().equals("Invalid date"));
     }
-
 }

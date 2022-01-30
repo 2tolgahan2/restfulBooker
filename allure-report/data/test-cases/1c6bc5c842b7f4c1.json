@@ -1,0 +1,82 @@
+{
+  "uid" : "1c6bc5c842b7f4c1",
+  "name" : "sample",
+  "fullName" : "services.booking.test.sample",
+  "historyId" : "ba250e4dff6261a41493332f6b46177",
+  "time" : {
+    "start" : 1643487114194,
+    "stop" : 1643487120295,
+    "duration" : 6101
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cf18bd264c0626d4",
+      "name" : "Request Detail",
+      "source" : "cf18bd264c0626d4.txt",
+      "type" : "text/plain",
+      "size" : 314
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "services.booking.test"
+  }, {
+    "name" : "testClass",
+    "value" : "services.booking.test"
+  }, {
+    "name" : "testMethod",
+    "value" : "sample"
+  }, {
+    "name" : "parentSuite",
+    "value" : "services.booking.test"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "services.booking.test"
+  }, {
+    "name" : "host",
+    "value" : "Tolgahans-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3027@Tolgahans-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c6bc5c842b7f4c1.json",
+  "parameterValues" : [ ]
+}

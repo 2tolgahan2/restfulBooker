@@ -1,0 +1,82 @@
+{
+  "af59e876b10ab0ad1e7220675453ebfa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2d19618a1148e1e",
+      "reportUrl" : "http://localhost:8080/job/restfulBooker/4/allure/#testresult/a2d19618a1148e1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643486960997,
+        "stop" : 1643486961933,
+        "duration" : 936
+      }
+    } ]
+  },
+  "212c44064e6aa0190b3e4faf8209c884" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e6b2e02e7053dd6",
+      "reportUrl" : "http://localhost:8080/job/restfulBooker/4/allure/#testresult/7e6b2e02e7053dd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643486954452,
+        "stop" : 1643486959915,
+        "duration" : 5463
+      }
+    } ]
+  },
+  "68ca260bf99cf5b3c5e367fb5ee3c562" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27d55924e855586",
+      "reportUrl" : "http://localhost:8080/job/restfulBooker/4/allure/#testresult/27d55924e855586",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643486961937,
+        "stop" : 1643486962876,
+        "duration" : 939
+      }
+    } ]
+  },
+  "4c98bfccd71588a930a0397e8b435eac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "818778cdee470284",
+      "reportUrl" : "http://localhost:8080/job/restfulBooker/4/allure/#testresult/818778cdee470284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643486960007,
+        "stop" : 1643486960990,
+        "duration" : 983
+      }
+    } ]
+  }
+}

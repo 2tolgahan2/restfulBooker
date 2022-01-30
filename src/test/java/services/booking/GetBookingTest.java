@@ -26,8 +26,11 @@ public class GetBookingTest {
        if (responseBody == "Not Found"){
             System.out.println("There is no record for the id #" +bookingId);
         }
+       else {
+           System.out.println("Booking Information: " + responseBody);
+       };
 
-       Assert.assertEquals(response.getStatusCode(), STATUS_CODE_SUCCESS);
+        Assert.assertEquals(response.getStatusCode(), STATUS_CODE_SUCCESS);
     }
 
 }

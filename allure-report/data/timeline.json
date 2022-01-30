@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Tolgahans-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "3027@Tolgahans-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "sample",
+        "uid" : "1c6bc5c842b7f4c1",
+        "parentUid" : "49496e826f16246bb8ac301d6679a28a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643487114194,
+          "stop" : 1643487120295,
+          "duration" : 6101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49496e826f16246bb8ac301d6679a28a"
+    } ],
+    "uid" : "609a832d0fae1f6bbb0b4da73ba09e4a"
+  } ]
+}

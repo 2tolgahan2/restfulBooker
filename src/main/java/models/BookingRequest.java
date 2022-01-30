@@ -17,6 +17,11 @@ public class BookingRequest {
         this.bookingdates = bookingdates;
         this.additionalneeds = additionalneeds;
     }
+    public void BookingRequestPartial(String firstname, String lastname) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+    }
+
 
     public static class BookingDates{
         public String checkin;

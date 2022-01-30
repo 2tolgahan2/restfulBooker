@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "services.booking.test",
+    "children" : [ {
+      "name" : "sample",
+      "uid" : "1c6bc5c842b7f4c1",
+      "parentUid" : "1234a0ee20611fdb60267bca50181e58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643487114194,
+        "stop" : 1643487120295,
+        "duration" : 6101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "services.booking.test"
+  } ]
+}

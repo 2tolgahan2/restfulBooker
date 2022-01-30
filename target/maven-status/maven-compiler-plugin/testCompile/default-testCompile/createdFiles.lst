@@ -4,6 +4,7 @@ services/booking/DeleteBookingTest.class
 services/auth/CreateTokenTest.class
 config/RestfulBookerAPI.class
 health/HealthTest.class
+services/booking/test.class
 services/booking/BookingFlowTest.class
 services/booking/UpdateBookingTest.class
 services/booking/GetBookingTest.class
